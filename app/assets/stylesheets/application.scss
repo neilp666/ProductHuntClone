@@ -1,0 +1,406 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ */
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+
+
+ 
+/*Utility Classes*/
+
+.day-date {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+
+.inline {
+  display: inline !important;
+}
+
+.float-right {
+  float: right;
+}
+
+.clear {
+  clear: left;
+  clear: right;
+}
+
+
+.pad-top-big {
+  padding-top: 40px;
+}
+
+.pad-bot-medium {
+  padding-bottom: 20px;
+}
+.small-top-padding {
+  padding: 5px;
+}
+
+.pad-bot-big {
+  padding-bottom: 15px;
+}
+
+.small-bottom-padding {
+  
+  padding: 0 0 5px;
+  margin: 0;
+  display: block;
+}
+
+/*Utility CLasses End*/
+
+
+
+
+.nav-container {
+  border-bottom: 1px solid #bdc3c7;
+  min-height: 70px;
+}
+
+
+.nav-content {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.logo {
+  line-height: 70px;
+  float: left;
+}
+
+
+
+.nav-bar-content {
+  float: right;
+  /*min-height: 70px;*/
+
+  
+  
+}
+
+.navigation-bar {
+  float: right;
+  
+}
+
+.nav-bar-content ul {
+  list-style-type: none;
+  
+}
+
+.nav-bar-content ul li {
+  display: inline;  
+  line-height: 70px;
+  padding-left: 20px;
+}
+
+
+.nav-bar-content .form-control {
+  display: inline;
+  max-width: 150px !important;
+}
+
+
+
+
+
+.link-item {
+  max-width: 980px;
+  margin: 0 auto 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  
+}
+
+.link-item-tagline {
+  color: #999999;
+    font-size: 17px;
+    display: block;
+    line-height: 20px;
+}
+.link-item-title {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 21px;
+}
+
+
+.upvote {
+
+  color: #222222;
+}
+
+.upvote:hover {
+  color: #23527c;
+  text-decoration: none !important;
+  
+}
+
+.upvote:visited {
+  color: #337ab7;
+}
+
+.upvote-button {
+  padding-top: 3px;
+  display: block;
+  font-size: 14px;
+  text-align: center;
+}
+
+.upvote-count {
+display: block;
+font-size: 13px;
+text-align: center;
+}
+
+
+.upvote-button:visited {
+  color: #222222;
+}
+.upvote-count:visited {
+  color: #222222;
+}
+
+
+
+
+.image img {
+  border-radius: 100px;
+}
+
+.comment-count {
+  font-size: 18px;
+  line-height: 40px;
+  color: #999999;
+  
+}
+
+.glyphicon-comment {
+  font-size: 14px;
+  padding-right: 10px;
+
+}
+
+.link-item:hover {
+  background-color: rgb(245, 245, 245);
+}
+
+
+
+/*
+
+  Show Page
+    
+*/
+
+
+.show-header {
+  background-color: #534540;
+  min-height: 300px;
+}
+
+.show-header-content  {
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.show-header-content h1, .show-header-content h4 {
+  text-align: center;
+  color: #fff;
+  margin-top: 15px;
+}
+
+.show-buttons {
+  max-width: 150px;
+  margin: 30px auto 0;  
+  text-align: center;
+
+}
+
+
+.show-buttons a {
+  text-align: center;
+}
+
+
+.get {
+  min-height: 48px;
+
+
+}
+
+a.get {
+  padding-top: 15px;
+  padding: 15px 25px 0px;
+}
+
+
+.left-side {
+  background-color: #fff;
+    min-height: 300px !important;
+    padding-top: 20px;
+
+}
+
+.right-side {
+  background-color: #f8f7f7;
+}
+
+.greybg {
+   background-color:  #f8f7f7;
+  
+}
+
+.row-grey {
+  background-color:  #f8f7f7 !important;
+  margin: 0 !important;
+}
+
+
+
+
+.comment-form-user-name {
+  float: left;
+}
+
+.comment-form-user-name p {
+
+  display: inline;
+  color: black;
+    font-weight: 600;
+        font-size: 16px;
+    line-height: 23px;
+
+}
+    
+
+.comments-show-section .comments-header {
+  padding-bottom: 20px;
+  color: #bbb;
+  text-transform: uppercase;
+}
+
+.upvotes-show-section .upvotes-header {
+  color: #bbb;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+.comments-block {
+  padding-bottom: 30px;
+}
+
+.comments-block small a {
+  color: #cac6c3;
+}
+
+
+.comments-block small a:hover {
+  text-decoration: none;
+  color: #99E0FF;
+}
+
+
+.right-side-upvote-block {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin: 1em;
+}
+
+
+
+/*
+  
+  Profile Page
+  
+*/
+
+.profile-header {
+  background-color: #534540;
+  min-height: 50px;
+  padding-bottom: 0;
+}
+
+.profile-header-content  {
+  max-width: 980px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 0px; 
+
+  /*padding-bottom: 30px;*/
+
+
+
+}
+
+.profile-header-content h1, .profile-header-content h4 {
+  text-align: left;
+
+  color: #fff;
+  margin-top: 15px;
+}   
+
+.profile-header-content h1 {
+  font-size: 30px;
+}
+
+
+.profile-header-content h4 {
+  font-weight: 500;
+    font-size: 20px;
+    color: #B4AEAB;
+}
+
+.profile-body {
+   max-width: 980px;
+  margin: 0 auto 15px;
+  padding-top: 40px;
+}
+
+.profile-nav {
+  padding-top: 20px;
+}
+
+
+.profile-nav li .left {
+      border-radius: 4px 0 0 0 !important ; 
+       background-color:  #99908D;
+      color: #fff;
+      
+      font-size: 14px;
+      font-weight: 300;
+}
+
+.profile-nav li .right {
+      border-radius: 0 4px 0 0 !important ; 
+      background-color:  #99908D;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 300;
+}
+
+.profile-nav li .right.active, .profile-nav li .left.active  {
+  background-color: #fff !important;
+  color: #99908D !important;
+}
+.profile-nav li .count {
+  font-size: 18px;
+  font-weight: 700;
+
+}

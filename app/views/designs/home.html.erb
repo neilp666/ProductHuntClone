@@ -1,0 +1,36 @@
+
+
+
+
+<div class="main-body" >
+<% 5.times do %>
+  <div class="links-list" >     
+    <h3 class="day-date" >Today <small>SEPTEMBER 3RD</small></h3>
+    <% 5.times do %>
+    <div class="link-item" >
+      <div class="row">
+        <div class="col-xs-1"> </div>
+        <div class="col-xs-1">
+            <a class="upvote" href="#" >
+              <span class="upvote-button" >
+              <span class="glyphicon glyphicon-chevron-up" ></span>
+              </span> 
+              <span class="upvote-count" >32</span>
+            </a>
+        </div>
+        <div class="col-xs-7">
+          <a class="link-item-title" href="">Title will go here</a>
+          <span class="link-item-tagline" >Tagline Will Sureley Go Here</span>
+        </div>
+        <div class="col-xs-1"><span class="image" ><%= image_tag "guy.jpg", width: "40px;", height: "40px;" %></span></div>
+        <div class="col-xs-2" > <span class="comment-count" ><span class=" glyphicon glyphicon-comment" > </span> 8</span> </div>
+        <!-- <div class="col-xs-1"> <span class="comment-count" >8</span> </div> -->
+       
+      </div>
+      
+    </div>
+    <% end %>
+  </div>
+  <% end %>
+
+</div>
